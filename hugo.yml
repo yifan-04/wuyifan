@@ -1,0 +1,25 @@
+baseURL: 'https://yifan-04.github.io/wuyifan/'  # 网站的 URL
+languageCode: "zh"  # 网站语言代码
+title: "橘柚 - Blog's"  # 网站标题
+theme: "hugo-theme-ladder"  # 使用的主题名称
+defaultContentLanguage: "zh"
+
+params:
+  brand: "主页"
+  author: "橘柚"
+  authorDescription: "阅读｜思考｜产出｜进步"
+  info: "从未停止对未知的探索，尝试分享一些有趣的东西"
+  avatarURL: "images/avatar.jpg"
+  showDarkMode: "true"
+  favicon: "images/avatar.jpg"
+  options:
+    showDarkMode: true
+
+menu:
+  main:
+    - name: "文章"
+      url: "/blog/"
+      weight: 1
+    - name: "归档"
+      url: "/archive/"
+      weight: 2
