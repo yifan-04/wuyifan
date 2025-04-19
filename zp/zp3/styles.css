@@ -8,14 +8,16 @@ body {
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    min-height: 100vh;
+    gap: 3px; /* 增大卡片间距 */
+    flex-wrap: wrap; /* 允许换行 */
 }
 
 .card {
     width: 200px;
+    margin: 10px; /* 添加外边距 */
     border: 0;
     border-radius: 8px;
     overflow: hidden;
